@@ -1,20 +1,15 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pyw
-*.pyo
-*.pyd
-.Python
+# 忽略 VS 自动生成文件
+.vs/
+*.ipch
 
-# Virtual environment
+# 忽略虚拟环境
 venv/
-env/
-ENV/
 
-# IDE config
+# 忽略 pycharm 配置
 .idea/
-*.iml
 
-# Others
-.DS_Store
+# 忽略本地数据库或临时文件
+*.db
 *.log
+__pycache__/
+*.pyc
